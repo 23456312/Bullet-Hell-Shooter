@@ -125,7 +125,6 @@ public class Spawner : MonoBehaviour
         if (b != null)
         {
             b.speed = bulletSpeed; 
-            b.bulletLife = bulletLife;
             b.startingHeartOffset = shapeOffset;
             bullet.transform.right = direction;
         }

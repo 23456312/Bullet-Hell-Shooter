@@ -16,7 +16,7 @@ public class Patterns : MonoBehaviour
         {
             spawner.pattern = SpawnerType.Star;
             spawner.speed = 10f;
-            spawner.bulletLife = 9f; 
+            spawner.bulletLife = 2f; 
         }
         else if (elapsed < 20f) 
         {
